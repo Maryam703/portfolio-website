@@ -22,8 +22,6 @@
     height: auto;
     width: auto;
     padding: 1%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
     margin-top: 1%;
     margin-bottom: 1%;
     border-radius: 30px;
@@ -40,10 +38,8 @@
     width: 100%;
     margin-top: 1%;
     margin-bottom: 1%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     cursor: pointer;
     border-radius: 30px;
     font-size: 1.2rem;
@@ -66,5 +62,17 @@
 @media screen and (max-width: 600px) {
     .profile-container-btn, .profile-container-btn-link {
         font-size: 0.9rem;
+    }
+    .profile-container-btn{
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .profile-container-btn-link{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
     }
 }
