@@ -1,0 +1,82 @@
+.projectlist-container{
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    border-top: 2px solid #2b5581;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f3c5c;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.projectlist-projects-container{
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.projectlist-container-box{
+    height: 42vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1.4%;
+    margin-top: 5%;
+    padding: 0.7%;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projectlist-box-img-container{
+    height: 220px;
+    width: 100%;
+    border-radius: 8px;
+}
+.projectlist-box-img-container> img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.projectlist-box-title{
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.projectlist-box-description{
+    height: auto;
+    width: 100%;
+    margin-bottom: 6%;
+}
+.projectlist-box-link-container{
+    height: 2rem;
+    width: 86%;
+    margin-left: 10%;
+    border-radius: 6px;
+    background-color: #2b5581;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.projectlist-box-link-container :hover{
+    font-size: 1.05rem;
+}
+.projectlist-box-link {
+   text-decoration: none;
+   color: white;
+   font-size: 1rem;
+   font-weight: 500;
+   cursor: pointer;
+}

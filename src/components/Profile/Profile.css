@@ -1,0 +1,70 @@
+.profile-container{
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profile-container-card{
+    height: 100vh;
+    width: 100%;
+    border-top: 2px solid #2b5581;
+    background-color: #1f3c5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-container-btn{
+    height: auto;
+    width: auto;
+    padding: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #2b5581;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.profile-container-btn-link{
+    height: 100%;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-container-btn:hover, .profile-container-btn-link:hover{
+    background-color: white;
+    color: #1f3c5c;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1295px) {
+    .profile-container-btn, .profile-container-btn-link {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile-container-btn, .profile-container-btn-link {
+        font-size: 0.9rem;
+    }
+}

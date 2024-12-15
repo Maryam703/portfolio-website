@@ -1,0 +1,17 @@
+.resume-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume-img-container{
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+}
+.resume-img-container > embed{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}

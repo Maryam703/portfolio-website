@@ -1,0 +1,28 @@
+.footer-container{
+    height: 5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1f3c5c;
+    color: white;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links{
+    margin: 10px;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+.footer-links :hover {
+    font-size: 2rem;
+}

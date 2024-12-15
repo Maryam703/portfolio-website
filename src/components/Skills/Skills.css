@@ -1,0 +1,71 @@
+.skills-container{
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    border-top: 2px solid #2b5581;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1f3c5c;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-container> h1 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.skills-box-container{
+    height: auto;
+    min-height: 50vh;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.skills-box{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+.skill-inner-box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 1rem;
+}
+.skill-inner-box-icon{
+    margin-right: 12px;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .skills-box-container{
+        display: flex;
+        flex-direction: column;
+        font-size: 0.95rem;
+    }
+    .skills-box{
+        width: auto;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skills-box-container{
+        font-size: 0.85rem;
+    }
+    .skills-box{
+        width: auto;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
