@@ -20,7 +20,7 @@ function Projectslist() {
         {
             image: "/images/ecom.png",
             title: "ECOMMERCE",
-            link: "https://e-pze8hqa6d-maryam703s-projects.vercel.app/",
+            link: "https://e-commerce-phi-ten-82.vercel.app/",
             description: "An e-commerce app, also known as a mobile commerce app, is a software program that allows users to buy and sell goods or services online."
         },
         {
