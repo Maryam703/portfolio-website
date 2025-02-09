@@ -33,7 +33,7 @@ function Projectslist() {
             image: "/images/youtube-video.png",
             title: "Youtube Clone",
             link: "https://youtube-clone-beta-nine-83.vercel.app/",
-            description: "A social media and video-sharing platform that allows users to watch and upload videos on their mobile devices. Login email: user@gmail.com pass: 123456"
+            description: "A social media and video-sharing platform. When you open website search for 'Channel' to watch and subscribe multiple channels. Login email: user@gmail.com pass: 123456"
         },
         {
             image: "/images/todolist.png",
